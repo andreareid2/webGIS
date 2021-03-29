@@ -33,7 +33,7 @@
   L.esri.basemapLayer('Streets').addTo(map);
 
   var earthquakes = L.esri.featureLayer({
-    url: 'https://services1.arcgis.com/pMeXRvgWClLJZr3s/ArcGIS/rest/services/SolarPotentialSubset_WFL1/FeatureServer/0'
+    url: 'https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/Buildings_Solar_Potential_Subset/FeatureServer/0'
   }).addTo(map);
 
   earthquakes.bindPopup(function (layer) {
