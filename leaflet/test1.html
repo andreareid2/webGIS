@@ -37,7 +37,7 @@
   }).addTo(map);
 
   earthquakes.bindPopup(function (layer) {
-    return L.Util.template('<p>Solar Potential:  <strong>{lec_Prod_MWh}</strong> <br> Suitable area: <strong>{AREA}</strong></p>', layer.feature.properties);
+    return L.Util.template('<p>Solar Potential:  <strong>{Elec_Prod_MWh}</strong> <br> Suitable area: <strong>{Area}</strong></p>', layer.feature.properties);
   });
 </script>
 
